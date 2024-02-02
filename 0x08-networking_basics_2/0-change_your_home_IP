@@ -1,4 +1,4 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
 #this script configures an ubunto server:
 #  **  localhost resolves to 127.0.0.2
 #  **  facebook.com resolves to 8.8.8.8
