@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+echo "Hello Holberton" > /var/www/html/index.html
+
+# Start the Apache service
+service apache2 start
+
+# Exit the container
+exit
+
+# Test the setup from the host machine
+curl http://localhost:8080
